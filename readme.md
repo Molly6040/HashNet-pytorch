@@ -13,8 +13,7 @@ PyTorch 实现 "HashNet: Deep Learning to Hash by Continuation"（ICCV 2017）
 在实验中我们使用了flickr25、NUS-WIDE 和 COCO 数据集。coco数据集可以在 [这里](https://cocodataset.org/#download)下载，NUS-WIDE 点击[这里](https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html)下载，flickr25k数据集[这里](https://press.liacs.nl/mirflickr/mirdownload.html)在下载。相关的文件格式如下：
 
 ```c
-	pytorch/
-├── src/
+├── src/pytorch/
 │   ├── train.py
 │   ├── test.py
 │   ├── data_list.py
