@@ -43,7 +43,7 @@ PyTorch 实现 "HashNet: Deep Learning to Hash by Continuation"（ICCV 2017）
 
 首先，你可以手动下载 `torchvision` 库中介绍的 PyTorch 预训练模型，或者如果你已连接到互联网，可以自动下载。然后，你可以使用以下命令为每个数据集训练模型。
 
-```
+```ssh
 cd ../pytorch/src
 python train.py --gpu_id 0 --dataset coco --prefix resnet50_hashnet --hash_bit 48 --net ResNet50 --lr 0.0003 --class_num 1.0
 ```
@@ -65,8 +65,8 @@ python train.py --gpu_id 0 --dataset coco --prefix resnet50_hashnet --hash_bit 4
 
 你可以使用以下命令评估每个数据集的平均精度均值（MAP）结果。
 
-```
-sh复制代码cd src
+```ssh
+cd src
 python test.py --gpu_id 0 --dataset coco --prefix resnet50_hashnet --hash_bit 48 --snapshot iter_09000
 ```
 
