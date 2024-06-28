@@ -5,8 +5,9 @@ PyTorch 实现 "HashNet: Deep Learning to Hash by Continuation"（ICCV 2017）
 #### 运行环境
 
 - Linux 或 OSX
-- NVIDIA GPU + CUDA（可能需要 CuDNN）以及相应的 PyTorch 框架（版本 0.3.1）
-- Python 2.7/3.5
+- NVIDIA GPU + CUDA（版本 11.1）
+- PyTorch 框架（版本 1.10.0）
+- Python 3.7
 
 #### 数据集
 
